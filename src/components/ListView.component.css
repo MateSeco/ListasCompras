@@ -1,0 +1,89 @@
+.listContainer {
+  margin: auto;
+  min-width: 250px;
+  width: min(300px, 90vw);
+  border-radius: 15px;
+  padding: 30px 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.list {
+  background-color: #fffefa;
+  color: #282c34;
+  font-weight: 500;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style: none;
+}
+
+.list .fa-square {
+  color: rgba(15, 147, 255, 0.7);
+}
+
+.notPurchased {
+  width: 80%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.purchased {
+  width: 80%;
+  padding-top: 5px;
+  text-align: left;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.purchased .fa-minus-circle {
+  color: transparent;
+}
+
+.fa-arrow-left {
+  color: white;
+}
+
+.searchBar .fa-plus-circle {
+  color: white;
+  margin-left: 190px;
+  font-size: 2rem;
+  margin-top: 10px;
+  transition: transform 500ms;
+}
+.searchBar .fa-plus-circle:hover {
+  transform: scale(1.2) rotate(0.5turn);
+}
+
+.fa-minus-circle {
+  color: rgba(206, 55, 55, 0.8);
+}
+
+.header .fa-minus-circle {
+  color: white;
+  font-size: 1.7rem;
+  transition: transform 500ms;
+}
+
+.header .fa-minus-circle:hover {
+  transform: scale(1.2);
+  color: rgba(206, 55, 55, 0.8);
+}
+
+.boxContainer {
+  background-color: white;
+  margin: auto;
+  min-width: 250px;
+  width: min(300px, 90vw);
+  border-radius: 15px;
+}

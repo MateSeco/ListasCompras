@@ -1,0 +1,18 @@
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.2rem solid white;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.searchBar button {
+  outline: none;
+  border: none;
+  color: transparent;
+  background-color: transparent;
+}

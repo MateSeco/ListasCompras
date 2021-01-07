@@ -1,0 +1,81 @@
+.mainContainer {
+  background-color: white;
+  color: #282c34;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: min(300px, 90vw);
+  border-radius: 15px;
+  min-width: 250px;
+}
+
+.mainContainer ul {
+  list-style: none;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.listLink {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.listLink:hover {
+  list-style: none;
+  border-style: none;
+  text-decoration: none;
+}
+
+.listLink .titulo {
+  width: 150px;
+  font-size: 1.3rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.listLink .fecha {
+  font-size: 0.7rem;
+}
+
+.listLinkBut {
+  width: 80%;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  transition: transform 250ms;
+}
+
+.listLinkBut:hover {
+  transform: scale(1.05);
+}
+
+.listLink button {
+  outline: none;
+  border: none;
+}
+
+.mainContainer .fa-plus-circle {
+  color: rgba(15, 147, 255, 0.7);
+  font-size: 45px;
+  padding: 20px;
+  margin-left: 50%;
+  transition: transform 500ms;
+}
+
+.mainContainer .fa-plus-circle:hover {
+  transform: scale(1.2) rotate(0.5turn);
+}
